@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css" id="style-link">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+</head>
+<body class="default-background">
+    <a href="index.html"><button class="nav-button">Home</button></a>
+    <a href="portfolio.html"><button class="nav-button">Portfolio</button></a>
+    <a href="qualifications.html"><button class="nav-button">Qualifications</button></a>
+    <a href="service.html"><button class="nav-button">Service</button></a>
+    <button class="nav-button" onclick="toggleTheme()">Theme</button>    
+
+    <h1 class="center underline">Personal Projects</h1>
+
+    <!--PROJECT 1 DESC-->
+    <div class="grid-container">
+        <div class="grid-child">
+            <img src="images/sentiment-analysis.jpeg" alt="graphs of project" class="project-img">
+            <h2 class="center">Amazon Review Sentiment Analysis</h2>
+            <p class="center">
+                A project I developed which implements two different machine learning models: VADER and Roberta and interprets the sentiment
+                of amazon reviews (positive, neutral, or negative) from a dataset. Created in Python3.
+            </p>
+            <a href="https://github.com/BrandonMoon01/Sentiment-Analysis" target="_blank">
+                <button class="project-repo">Repo</button>
+            </a>
+        </div>
+
+            <!--PROJECT 2 DESC-->
+        <div class="grid-child">
+            <img src="images/terminal-logo.png" alt="terminal logo" class="project-img">
+            <h2 class="center">Aggie Shell</h2>
+            <p class="center">
+                A program that simulates a linux shell using system calls, concurrent processes, and interprocess communication. This project was coded
+                in C++ and reinforced essential concepts related to computer systems.
+            </p>
+            <a href="https://github.com/BrandonMoon01/aggie-shell" target="_blank">
+                <button class="project-repo">Repo</button>
+            </a>
+        </div>
+    </div>
+
+  <!--SOCIAL MEDIA ICONS-->
+  <a href="https://www.linkedin.com/in/brandon-moon-0704701a3/" class="social-icon" target="_blank">
+    <ion-icon name="logo-linkedin"></ion-icon>
+  </a>
+  <a href="https://github.com/BrandonMoon01" class="social-icon" target="_blank">
+    <ion-icon name="logo-github" class="social-icon"></ion-icon>
+  </a>
+  <a href="mailto:brandonvmoon98@gmail.com" class="social-icon" target="_blank">
+    <ion-icon name="mail-open-outline"></ion-icon>
+  </a>
+  
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
